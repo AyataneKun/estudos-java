@@ -3,8 +3,7 @@ package one.digitalinnovation;
 public class Atendente extends Funcionario{
 
     public Atendente(String nome, double salario){
-        setNome(nome);
-        setSalario(salario);
+        super(nome, salario);
     }
 
     public double calculaImposto(){

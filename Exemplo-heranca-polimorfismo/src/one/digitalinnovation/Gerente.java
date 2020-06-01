@@ -3,8 +3,7 @@ package one.digitalinnovation;
 public class Gerente extends Funcionario {
 
     public Gerente(String nome, double salario){
-        setNome(nome);
-        setSalario(salario);
+        super(nome, salario);
     }
 
     public double calculaImposto(){

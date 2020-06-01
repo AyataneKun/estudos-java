@@ -6,7 +6,7 @@ public class Programa {
     public static void main(String[] args) {
 
         Scanner leitura = new Scanner(System.in);
-        Carro carro = new Carro("Ford", "Fiesta", 2003);
+        Carro carro = new Carro("Ford", "Fusion", 2014);
 
         System.out.println("O carro tem variante? Se sim, informe qual. Se não, digite não");
         carro.setVariante(leitura.next());

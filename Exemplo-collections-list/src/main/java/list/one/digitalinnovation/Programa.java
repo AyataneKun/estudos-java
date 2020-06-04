@@ -1,4 +1,4 @@
-package one.digitalinnovation;
+package list.one.digitalinnovation;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -68,6 +68,7 @@ public class Programa {
         boolean vazio2 = novaLista.isEmpty();
 
         System.out.println(vazio2); // Verificando de a lista "novaLista" está vazia
+
 
     }
 

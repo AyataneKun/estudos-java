@@ -49,9 +49,11 @@ public class Programa {
         novaLista.add("Ismael");
         novaLista.add("Rodrigo"); // Adicionando nomes a essa nova lista.
 
-        for (String name: novaLista) {
+        nomes.addAll(novaLista); // Adiciona essa nova lista na lista anterior
+
+        /*for (String name: novaLista) {
             nomes.add(name); // Percorrendo a nova lista e adicionando seus objetos (elementos) a lista anterior.
-        }
+        }*/
 
         System.out.println(nomes);
 

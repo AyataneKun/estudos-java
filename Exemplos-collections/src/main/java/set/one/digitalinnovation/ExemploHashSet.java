@@ -21,7 +21,7 @@ public class ExemploHashSet { //Exemplo de HashSet
 
         numeros.remove(20.0); //Remoção de elemento informando o objeto.
 
-        numeros.add(23.0); // Adição de um novo elemento, notar que ele toma uma posição qualquer no HashSet.
+        numeros.add(null); // Adição de um novo elemento, notar que ele toma uma posição qualquer no HashSet.
 
         System.out.println(numeros); //Print do HashSet
 
